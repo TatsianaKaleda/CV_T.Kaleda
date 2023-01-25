@@ -1,21 +1,3 @@
-// document.addEventListener('DOMContentLoaded', () => {
-//   const slidesContainer = document.getElementById("slides-container");
-//   const slide = document.querySelector(".slide");
-//   const prevButton = document.getElementById("slide-arrow-prev");
-//   const nextButton = document.getElementById("slide-arrow-next");
-
-//   nextButton.addEventListener('click', () => {
-//     const slideWidth = slide.clientWidth;
-//     slidesContainer.scrollLeft += slideWidth;
-//   });
-
-//   prevButton.addEventListener('click', () => {
-//       const slideWidth = slide.clientWidth;
-//       slidesContainer.scrollLeft -= slideWidth;
-//   });
-// });
-
-
 const items = document.querySelectorAll('img');
 const itemCount = items.length;
 const nextItem = document.getElementById('slide-arrow-next');
@@ -32,7 +14,6 @@ function showNextItem() {
   }
 
   items[count].classList.add('active');
-  // console.log(count);
 }
 
 function showPreviousItem() {
@@ -45,7 +26,6 @@ function showPreviousItem() {
   }
 
   items[count].classList.add('active');
-  // console.log(count);
 }
 
 function keyPress(e) {
