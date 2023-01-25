@@ -92,7 +92,11 @@
     padding-top: 45px;
     padding-left: 30px;
     border-left: 4px solid var(--my-green);
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.nav-info a:hover {
+    color: var(--my-grey);
 }
 
 @media (max-width: 870px) {

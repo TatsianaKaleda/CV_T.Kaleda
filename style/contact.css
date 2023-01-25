@@ -5,6 +5,11 @@
 
 .info_item {
     font-size: 23px;
+    line-height: 1.5;
+}
+
+.info_item a:hover {
+    color: var(--my-grey);
 }
 
 .info-label {

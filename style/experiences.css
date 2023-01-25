@@ -8,7 +8,7 @@
     display: block;
     margin-bottom: 15px;
     color: rgba(0,0,0,.6);
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .timeline-title {
@@ -18,7 +18,7 @@
 
 .timeline-text {
     margin-bottom: 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 @media (max-width: 440px) {
@@ -27,6 +27,6 @@
     }
 
     .timeline-company {
-        font-size: 17px;
+        font-size: 18px;
     }
 }

@@ -19,7 +19,8 @@ body {
     position: relative;
     padding: 15px;
     background: var(--my-fone);
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Lato', sans-serif;
     background: url(../image/bg.jpg) 0px 0px no-repeat;
     background-size: cover;
 }
