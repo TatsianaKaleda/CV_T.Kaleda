@@ -1,0 +1,30 @@
+.education_item {
+    padding-left: 10px;
+    margin-bottom: 50px;
+    border-left: 4px solid var(--my-green);
+}
+
+.education-date {
+    display: block;
+    margin-bottom: 15px;
+    color: rgba(8, 8, 8, 0.6);
+    font-size: 15px;
+}
+
+.education-bilding,
+.education-title {
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+.education-qualification {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+@media (max-width: 440px) {
+    .education-bilding,
+    .education-title {
+        font-size: 20px;
+    }
+}

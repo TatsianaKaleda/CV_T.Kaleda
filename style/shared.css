@@ -1,0 +1,66 @@
+:root {
+    --my-green: #559988;
+    --light-my-green: rgba(85, 153, 136, 0.3);
+    --my-pink: #ccaabb;
+    --light-my-pink: rgba(204, 170, 187, 0.3);
+    --my-grey: #555555;
+    --my-brown: #aa9999;
+    --light-my-brown: rgba(170, 153, 153, 0.3);
+    --my-fone: #eeeeee;
+    --skills-section-indent: 40px;
+    --skills-template-row-size: 70px;
+}
+
+* {
+    transition: 0.3s;
+}
+
+body {
+    position: relative;
+    padding: 15px;
+    background: var(--my-fone);
+    font-family: 'Lobster', cursive;
+    background: url(../image/bg.jpg) 0px 0px no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    margin-top: 0;
+    list-style-type: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding-top: 10px;
+}
+
+.title {
+    margin: 15px 0;
+    padding: 30px 0 20px;
+    font-size: 70px;
+    color: #000;
+    text-shadow: 4px 4px 2px rgb(170 153 153 / 80%);
+}
+
+@media (max-width: 870px) {
+    .title {
+        font-size: 50px;
+    } 
+}
+
+@media (max-width: 600px) {
+    .title {
+        text-align: center;
+    } 
+}
+

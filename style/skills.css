@@ -1,0 +1,260 @@
+.skills_section {
+	display: grid;
+    max-width: 600px;
+    margin: 0 auto var(--skills-section-indent);
+}
+
+.skills_box span:hover {
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.skills_box span {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.skills_section.section1,
+.skills_section.section2,
+.skills_section.section3,
+.skills_section.section4 {
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.skills_section.section1 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, var(--skills-template-row-size));
+    margin: 0 auto var(--skills-section-indent);
+}
+
+.skills_section.section2 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, var(--skills-template-row-size));
+    margin: 0 0 var(--skills-section-indent);
+}
+
+.skills_section.section3 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, var(--skills-template-row-size));
+    margin: 0 auto var(--skills-section-indent) 50%;
+}
+
+.skills_section.section4 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, var(--skills-template-row-size));
+    margin: 0 0 var(--skills-section-indent);
+}
+
+.post1,
+.post3,
+.post6,
+.post8,
+.post9 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.post2,
+.post5,
+.post10 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.post4,
+.post7,
+.post11 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.post1,
+.post9,
+.post10,
+.post11 {
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.post2,
+.post4,
+.post12 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.post3,
+.post8,
+.post14,
+.post15,
+.post18,
+.post19,
+.post20 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.post5,
+.post7,
+.post13 {
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.post6,
+.post16,
+.post17 {
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.post12,
+.post13 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.post14,
+.post16 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.post15,
+.post17 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.post1:hover,
+.post2:hover,
+.post3:hover,
+.post4:hover,
+.post5:hover,
+.post6:hover,
+.post7:hover,
+.post12:hover,
+.post13:hover,
+.post14:hover,
+.post15:hover,
+.post16:hover,
+.post17:hover {
+    background-color: var(--my-pink);
+    z-index: 2;
+}
+
+.post8:hover,
+.post9:hover,
+.post10:hover,
+.post11:hover,
+.post18:hover,
+.post19:hover,
+.post20:hover {
+    background-color: var(--my-green);
+    z-index: 2;
+}
+
+.post1 {
+    background: url("../image/skills/html5.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post2 {
+    background: url("../image/skills/css 3.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post3 {
+    background: url("../image/skills/sass.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post4 {
+    background: url("../image/skills/less.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post5 {
+    background: url("../image/skills/Bootstrap.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post6 {
+    background: url("../image/skills/figma.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post7 {
+    background: url("../image/skills/phjtoshop.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post8 {
+    background: url("../image/skills/js.png") var(--light-my-green) no-repeat center center;
+}
+
+.post9 {
+    background: url("../image/skills/angular.png") var(--light-my-green) no-repeat center center;
+}
+
+.post10 {
+    background: url("../image/skills/webpack.png") var(--light-my-green) no-repeat center center;
+}
+
+.post11 {
+    background: url("../image/skills/Gulp.png") var(--light-my-green) no-repeat center center;
+}
+
+.post12 {
+    background: url("../image/skills/csharp.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post13 {
+    background: url("../image/skills/Без названия.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post14 {
+    background: url("../image/skills/nodejs.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post15 {
+    background: url("../image/skills/pgsql.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post16 {
+    background: url("../image/skills/mssql.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post17 {
+    background: url("../image/skills/wordpress.png") var(--light-my-pink) no-repeat center center;
+}
+
+.post18 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background: url("../image/skills/git.png") var(--light-my-green) no-repeat center center;
+}
+
+.post19 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: url("../image/skills/confluence.png") var(--light-my-green) no-repeat center center;
+}
+
+.post20 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background: url("../image/skills/jira.png") var(--light-my-green) no-repeat center center;
+}
+
+
+@media (max-width: 1000px) {
+    .skills_section.section3 {
+        margin: 0 auto var(--skills-section-indent)
+    }
+}
+
+@media (max-width: 624px) {
+    .post10,
+    .post11 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+}

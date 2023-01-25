@@ -1,0 +1,36 @@
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_item {
+    font-size: 23px;
+}
+
+.info-label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.6);
+}
+
+.info-icon {
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+@media (max-width: 870px) {
+    .info_item {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}

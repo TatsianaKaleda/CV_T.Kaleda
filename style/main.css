@@ -1,0 +1,152 @@
+@import url(./shared.css);
+@import url(./header.css);
+@import url(./about.css);
+@import url(./skills.css);
+@import url(./experiences.css);
+@import url(./education.css);
+@import url(./projects.css);
+@import url(./contact.css);
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo {
+    margin-left: 30px;
+}
+
+.photo_circle {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    box-shadow: 8px 6px 20px 5px rgb(170 153 153 / 80%);
+}
+
+.photo-me {
+    width: 100%;
+}
+
+.photo_name,
+.photo-surname {
+    margin: 0;
+    font-weight: bold;
+    font-size: 75px;
+    color: #000;
+    text-shadow: 4px 4px 2px rgb(170 153 153 / 80%);
+}
+
+.photo-surname {
+    display: block;
+    padding-left: 125px;
+}
+
+.photo_kind {
+    margin-top: 30px;
+    font-size: 50px;
+    color: #000;
+    border-top: 4px solid var(--my-green);
+}
+
+.nav-link {
+    display: block;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-left: 4px solid var(--my-green);
+    color: #000;
+    transition: color .15s ease-in-out;
+}
+
+.nav-link:active {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: var(--my-grey);
+    border-left: 4px solid var(--my-grey);
+
+}
+
+.nav-counter {
+    display: inline-block;
+    margin: 0;
+    padding: 15px 10px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.nav-info {
+    padding-top: 45px;
+    padding-left: 30px;
+    border-left: 4px solid var(--my-green);
+    font-size: 18px;
+}
+
+@media (max-width: 870px) {
+    .nav {
+        display: none;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .photo_kind {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 530px) {
+    .photo_kind {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .photo_circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .photo_name, 
+    .photo-surname {
+        font-size: 60px;
+    }
+
+    .photo_kind {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 390px) {
+    .photo_circle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .photo_name, 
+    .photo-surname {
+        font-size: 50px;
+    }
+
+    .photo-surname {
+        padding-left: 100px;
+    }
+
+    .photo_kind {
+        font-size: 27px;
+    }
+}
